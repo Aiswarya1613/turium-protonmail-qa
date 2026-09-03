@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment / credentials
+.env
+cypress.env.json
+
+# Cypress runtime artifacts
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Generated temporary reports
+reports/generated/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/

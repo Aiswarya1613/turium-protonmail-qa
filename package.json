@@ -1,0 +1,16 @@
+{
+  "name": "turium-protonmail-qa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^16.0.0",
+    "dotenv": "^17.4.2"
+  }
+}
