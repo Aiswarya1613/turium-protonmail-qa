@@ -6,6 +6,7 @@ class ComposePage {
     this.toInput = page.getByTestId("composer:to");
     this.subjectInput = page.getByTestId("composer:subject");
     this.sendButton = page.getByTestId("composer:send-button");
+    this.closeButton = page.getByTestId("composer:close-button");
     this.deleteDraftButton = page.getByTestId(
       "composer:delete-draft-button"
     );
@@ -45,6 +46,10 @@ class ComposePage {
   async send() {
     await this.sendButton.click();
   }
-}
 
+  async close() {
+    await this.closeButton.click();
+  }
+}
+    
 module.exports = { ComposePage };
